@@ -15,7 +15,7 @@ public class Main extends JavaPlugin{
         super.onEnable();
         instance = this;
 
-        //getServer().getPluginManager().registerEvents(new com.pandora.Kettash.pandorapvp.main.Soup(), this); Disabled for the UHC
+        getServer().getPluginManager().registerEvents(new Soup(), this);
         getServer().getPluginManager().registerEvents(new OldPvp(), this);
 
     }
