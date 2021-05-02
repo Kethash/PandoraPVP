@@ -1,0 +1,5 @@
+name: PandoraPVP
+version: 1.0
+api-version: 1.16
+author: Kettash
+main: com.pandora.Kettash.pandorapvp.main.Main
